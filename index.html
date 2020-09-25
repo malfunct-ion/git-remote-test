@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
+      <div class="container py-2">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/logo-brand.png"
+            width="150"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Product
+              </a>
+              <div
+                class="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="container">
+                  <!-- tab control -->
+                  <div class="col-12 d-flex justify-content-center mt-3">
+                    <ul
+                      class="nav nav-pills mb-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item mx-5">
+                        <a
+                          class="nav-link active tab-car"
+                          id="pills-home-tab"
+                          data-toggle="pill"
+                          role="tab"
+                          href="#passenger"
+                          aria-controls="pills-home"
+                          aria-selected="true"
+                          >Passenger Car</a
+                        >
+                      </li>
+                      <li class="nav-item mx-5">
+                        <a
+                          class="nav-link tab-car"
+                          id="pills-profile-tab"
+                          data-toggle="pill"
+                          role="tab"
+                          href="#commercial"
+                          aria-controls="pills-profile"
+                          aria-selected="false"
+                          >Light Commercial</a
+                        >
+                      </li>
+                      <li class="nav-item mx-5">
+                        <a
+                          class="nav-link tab-car"
+                          id="pills-contact-tab"
+                          data-toggle="pill"
+                          role="tab"
+                          href="#truck"
+                          aria-controls="pills-contact"
+                          aria-selected="false"
+                          >Truck</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end of tab-control -->
+                  <!-- start of tab-content -->
+                  <div class="col-12">
+                    <div class="tab-content" id="pills-tabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="passenger"
+                        role="tabpanel"
+                        aria-labelledby="pills-home-tab"
+                      >
+                        <div class="row w-100">
+                          <div class="col-12 col-md-3 mb-3">
+                            <a href="#" class="card-link-product">
+                              <img
+                                src="./assets/img/1.png"
+                                alt="Product"
+                                class="nav-img-product"
+                              />
+                              <h5 class="text-danger">Mitsubishi Lancer v1</h5>
+                              <span class="font-weight-bold"
+                                >Rp. 250.000.000</span
+                              >
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="commercial"
+                        role="tabpanel"
+                        aria-labelledby="pills-profile-tab"
+                      >
+                        <div class="row w-100">
+                          <div class="col-12 col-md-3 mb-3">
+                            <a href="#" class="card-link-product">
+                              <img
+                                src="./assets/img/1.png"
+                                alt="Product"
+                                class="nav-img-product"
+                              />
+                              <h5 class="text-danger">Mitsubishi Lancer v2</h5>
+                              <span class="font-weight-bold"
+                                >Rp. 250.000.000</span
+                              >
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="truck"
+                        role="tabpanel"
+                        aria-labelledby="pills-contact-tab"
+                      >
+                        <div class="row w-100">
+                          <div class="col-12 col-md-3 mb-3">
+                            <a href="#" class="card-link-product">
+                              <img
+                                src="./assets/img/1.png"
+                                alt="Product"
+                                class="nav-img-product"
+                              />
+                              <h5 class="text-danger">Mitsubishi Lancer v3</h5>
+                              <span class="font-weight-bold"
+                                >Rp. 250.000.000</span
+                              >
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of tab-content -->
+                  <hr />
+                  <div class="col-12 d-flex justify-content-center py-3">
+                    <button class="btn btn-danger font-weight-bold">
+                      View More (+)
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Promo & News
+              </a>
+              <div
+                class="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="container">
+                  <a class="dropdown-item" href="#">Promo Sales</a>
+                  <a class="dropdown-item" href="#">Promo After Sales</a>
+                  <a class="dropdown-item" href="#">News</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                After Sales Services
+              </a>
+              <div
+                class="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="container">
+                  <a class="dropdown-item" href="#">Services</a>
+                  <a class="dropdown-item" href="#">Spare Part</a>
+                  <a class="dropdown-item" href="#">Body & Cat</a>
+                  <a class="dropdown-item" href="#">BRA Shield</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Shopping Tools
+              </a>
+              <div
+                class="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="container">
+                  <a class="dropdown-item" href="#">Test Drive</a>
+                  <a class="dropdown-item" href="#">Promo</a>
+                  <a class="dropdown-item" href="#">Buy</a>
+                  <a class="dropdown-item" href="#">Insurance</a>
+                  <a class="dropdown-item" href="#">BRA Shield</a>
+                  <a class="dropdown-item" href="#">Accessories & Spareparts</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Profile
+              </a>
+              <div
+                class="dropdown-menu bg-light"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="container">
+                  <a class="dropdown-item" href="#">Network</a>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                  <a class="dropdown-item" href="#">Career</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- start wrapper -->
+    <div class="wrapper">
+      <!-- start carousel -->
+      <div
+        id="carousel-example-2"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carousel-example-2"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img
+                class="d-block w-100"
+                src="https://www.mitsubishisoloraya.id/wp-content/uploads/2018/02/bg-xpander-1.jpg"
+                alt="First slide"
+              />
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption mb-5">
+              <h3 class="h3-responsive mb-3">Mitsubishi Xpander</h3>
+              <button class="btn btn-danger rounded-pill px-5 py-2">
+                See more (+)
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img
+                class="d-block w-100"
+                src="https://www.mitsubishisoloraya.id/wp-content/uploads/2018/02/bg-xpander-1.jpg"
+                alt="Second slide"
+              />
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption mb-5">
+              <h3 class="h3-responsive mb-3">Mitsubishi Xpander</h3>
+              <button class="btn btn-danger rounded-pill px-5 py-2">
+                See more (+)
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img
+                class="d-block w-100"
+                src="https://www.mitsubishisoloraya.id/wp-content/uploads/2018/02/bg-xpander-1.jpg"
+                alt="Third slide"
+              />
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption mb-5">
+              <h3 class="h3-responsive mb-3">Mitsubishi Xpander</h3>
+              <button class="btn btn-danger rounded-pill px-5 py-2">
+                See more (+)
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a
+          class="carousel-control-prev"
+          href="#carousel-example-2"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carousel-example-2"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+      </div>
+      <!-- end carousel -->
+
+      <!-- start services & news section -->
+      <section id="services"></section>
+      <!-- end services & news section -->
+    </div>
+    <!-- end wrapper -->
+
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/popper.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

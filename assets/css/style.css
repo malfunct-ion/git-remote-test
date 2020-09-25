@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+    background: none;
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.dropdown {
+    position: static !important;
+}
+
+.dropdown-menu {
+    width: 100% !important;
+    margin-top: -5px !important;
+}
+
+.nav-item>a {
+    font-weight: bold !important;
+}
+
+.nav-img-product {
+    width: 200px;
+}
+
+.card-link-product span {
+    color: black;
+}
+
+.card-link-product:hover {
+    text-decoration: none !important;
+}
+
+.tab-car {
+    color: #dc3545 !important;
+    cursor: pointer;
+}
+
+.tab-car.active {
+    background-color: #dc3545 !important;
+    color: white !important;
+    cursor: pointer;
+}
