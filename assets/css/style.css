@@ -45,3 +45,21 @@ html, body {
     color: white !important;
     cursor: pointer;
 }
+
+.carousel-caption-mini {
+    display: none;
+}
+
+#services .jumbotron {
+    background-image: url('https://www.mitsubishisoloraya.id/wp-content/uploads/2018/02/bg-xpander-1.jpg');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 540px) {
+    .carousel-caption {
+        display: none;
+    }
+    .carousel-caption-mini {
+        display: inline-block;
+    }
+}
