@@ -3,7 +3,8 @@ $(function () {
     e.stopPropagation();
   });
 
-  $(".dropdown-menu .tab-car").click(function () {
+  $(".dropdown-menu .tab-car").click(function (e) {
+    e.preventDefault();
     $(this).tab("show");
   });
 });
